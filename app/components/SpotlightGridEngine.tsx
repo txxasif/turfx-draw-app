@@ -35,7 +35,7 @@ export default function SpotlightGridEngine({
     isSpinning: false,
     tStart: 0,
     tFinal: 0,
-    duration: 5000, // 5 seconds spin
+    duration: 9000, // 9 seconds spin (increased for suspense)
     startTime: 0,
   });
 
@@ -215,7 +215,7 @@ export default function SpotlightGridEngine({
     // Find the target index in the repeated items array
     const targetIdxInItems = items.findIndex(item => item.id === winningPlayer.id);
 
-    const spins = 4; // 4 full spins
+    const spins = 7; // 7 full spins (increased to match longer duration)
     const state = animStateRef.current;
     
     state.tStart = state.t;
