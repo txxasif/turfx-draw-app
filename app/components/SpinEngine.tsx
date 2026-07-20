@@ -191,14 +191,14 @@ export default function SpinEngine({
     const ax = cx + avatarDist * Math.cos(radMid);
     const ay = cy + avatarDist * Math.sin(radMid);
 
-    // Alternating modern sporty themed styling (Argentina Sky Blue vs Algeria Emerald Green)
-    const colorClass = index % 2 === 0 ? 'url(#arg-gradient)' : 'url(#alg-gradient)';
-    const borderClass = index % 2 === 0 ? 'stroke-sky-500/35' : 'stroke-emerald-500/35';
-    const avatarStroke = index % 2 === 0 ? 'stroke-sky-400' : 'stroke-emerald-400';
-    const textColor = index % 2 === 0 ? 'fill-sky-100' : 'fill-emerald-100';
+    // Alternating modern sporty themed styling (Brazil Gold vs Norway Crimson Red)
+    const colorClass = index % 2 === 0 ? 'url(#bra-gradient)' : 'url(#nor-gradient)';
+    const borderClass = index % 2 === 0 ? 'stroke-amber-500/35' : 'stroke-red-500/35';
+    const avatarStroke = index % 2 === 0 ? 'stroke-amber-400' : 'stroke-red-400';
+    const textColor = index % 2 === 0 ? 'fill-amber-100' : 'fill-red-100';
     const avatarStyle = index % 2 === 0 
-      ? { filter: 'drop-shadow(0 0 5px rgba(56,189,248,0.5))' } 
-      : { filter: 'drop-shadow(0 0 5px rgba(16,185,129,0.5))' };
+      ? { filter: 'drop-shadow(0 0 5px rgba(245,158,11,0.5))' } 
+      : { filter: 'drop-shadow(0 0 5px rgba(239,68,68,0.5))' };
     
     return {
       d,
@@ -323,18 +323,18 @@ export default function SpinEngine({
                     </feMerge>
                   </filter>
                   
-                  {/* Argentina Gradient */}
-                  <linearGradient id="arg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#091b30" />
-                    <stop offset="70%" stopColor="#0f2b4c" />
-                    <stop offset="100%" stopColor="#1a4675" />
+                  {/* Brazil Gradient (Dark Gold/Amber theme) */}
+                  <linearGradient id="bra-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#1c1800" />
+                    <stop offset="70%" stopColor="#3d3403" />
+                    <stop offset="100%" stopColor="#705f03" />
                   </linearGradient>
                   
-                  {/* Algeria Gradient */}
-                  <linearGradient id="alg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#042116" />
-                    <stop offset="70%" stopColor="#063b27" />
-                    <stop offset="100%" stopColor="#0b5e3f" />
+                  {/* Norway Gradient (Dark Red/Crimson theme) */}
+                  <linearGradient id="nor-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#1f0206" />
+                    <stop offset="70%" stopColor="#47060f" />
+                    <stop offset="100%" stopColor="#7a0b1b" />
                   </linearGradient>
                 </defs>
 

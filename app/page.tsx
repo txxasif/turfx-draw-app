@@ -121,26 +121,26 @@ export default function Home() {
       {/* TURFX Header component */}
       <header className="sticky top-0 z-30 px-6 py-4 flex-shrink-0 w-full bg-transparent">
         <div className="w-full flex items-center justify-between">
-          <div className="flex items-center gap-3.5">
-            <img src="/logo.png" alt="TURFX Logo" className="h-10 w-auto object-contain hover:scale-105 transition-all duration-300" />
-            <div className="hidden sm:block border-l border-slate-800 h-8 mx-1" />
+          <div className="flex items-center gap-4">
+            <img src="/logo.png" alt="TURFX Logo" className="h-16 w-auto object-contain hover:scale-105 transition-all duration-300" />
+            <div className="hidden sm:block border-l border-slate-800 h-12 mx-1" />
             <div className="hidden sm:block">
-              <h1 className="text-xl font-black italic tracking-wider text-white flex items-center gap-1 font-display leading-none">
+              <h1 className="text-3xl font-black italic tracking-wider text-white flex items-center gap-1 font-display leading-none">
                 TURF<span className="text-lime-400">X</span>
               </h1>
-              <p className="text-[9px] text-slate-400 font-bold uppercase tracking-wider mt-1">Facebook Giveaway Draw</p>
+              <p className="text-[11px] text-slate-400 font-bold uppercase tracking-wider mt-1.5">Facebook Giveaway Draw</p>
             </div>
           </div>
 
           {/* Center Match Placard Scoreboard */}
-          <div className="hidden md:flex items-center gap-3.5 px-4 py-2 bg-slate-950/60 backdrop-blur-sm border border-slate-800/80 rounded-2xl shadow-inner shadow-black/50">
-            <div className="flex items-center gap-2 text-xs font-black tracking-wide text-slate-200 font-display">
-              <span className="flex items-center gap-1 text-sky-400">🇦🇷 ARGENTINA</span>
-              <span className="text-slate-600 px-1 font-sans font-normal">VS</span>
-              <span className="flex items-center gap-1 text-emerald-400">ALGERIA 🇩🇿</span>
+          <div className="hidden md:flex items-center gap-4 px-6 py-3 bg-slate-950/70 backdrop-blur-md border border-slate-800 rounded-2xl shadow-2xl shadow-black/80">
+            <div className="flex items-center gap-3 text-base font-black tracking-wide text-slate-200 font-display">
+              <span className="flex items-center gap-1.5 text-amber-400 text-lg">🇧🇷 BRAZIL</span>
+              <span className="text-slate-500 px-1 font-sans font-black text-xs">VS</span>
+              <span className="flex items-center gap-1.5 text-red-400 text-lg">NORWAY 🇳🇴</span>
             </div>
-            <div className="w-1.5 h-1.5 rounded-full bg-lime-500 animate-pulse shadow-[0_0_8px_#84cc16]" />
-            <span className="text-[9px] font-black text-lime-400 tracking-widest uppercase font-display">LIVE DRAW</span>
+            <div className="w-2 h-2 rounded-full bg-lime-500 animate-pulse shadow-[0_0_10px_#84cc16]" />
+            <span className="text-xs font-black text-lime-400 tracking-widest uppercase font-display">LIVE DRAW</span>
           </div>
 
 

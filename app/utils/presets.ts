@@ -3,77 +3,95 @@ import { Participant } from '../types';
 export const INITIAL_PRESETS: Participant[] = [
   {
     id: 'p1',
-    name: 'ওয়ালিদ বিন জাহিদ',
-    avatar: '/fb_profiles/ওয়ালিদ বিন জাহিদ.jpg',
-    fbLink: 'https://www.facebook.com/oyalida.bina.jahida',
+    name: 'Riyad Ali',
+    avatar: '/fb_profiles/Riyad Ali.jpg',
+    fbLink: 'https://www.facebook.com/share/1F68HZQ9kP/?mibextid=wwXIfr',
     addedAt: 1,
-    prediction: 'ARG 2 - 1 ALG'
+    prediction: 'BRA 2 - 1 NOR'
   },
   {
     id: 'p2',
-    name: 'Saeed Imran Sakib',
-    avatar: '/fb_profiles/Saeed Imran Sakib.jpg',
-    fbLink: 'https://www.facebook.com/saeed.imran.sakib',
+    name: 'Mosharof Hossain',
+    avatar: '/fb_profiles/Mosharof Hossain.jpg',
+    fbLink: 'https://www.facebook.com/share/1KLaF4YC82/?mibextid=wwXIfr',
     addedAt: 2,
-    prediction: 'ARG 3 - 0 ALG'
+    prediction: 'BRA 1 - 1 NOR'
   },
   {
     id: 'p3',
-    name: 'Niloy Chowdhury',
-    avatar: '/fb_profiles/Niloy Chowdhury.jpg',
-    fbLink: 'https://www.facebook.com/Md.Niloy.16100092',
+    name: 'Sayef Ul Islam Sojib',
+    avatar: '/fb_profiles/Sayef Ul Islam Sojib.jpg',
+    fbLink: 'https://www.facebook.com/share/1CHaQhqPbA/?mibextid=wwXIfr',
     addedAt: 3,
-    prediction: 'ARG 1 - 1 ALG'
+    prediction: 'BRA 3 - 0 NOR'
   },
   {
     id: 'p4',
-    name: 'অমিত হাসান',
-    avatar: '/fb_profiles/অমিত হাসান.jpg',
-    fbLink: 'https://www.facebook.com/people/অমিত-হাসান/pfbid0CHr2eRPmujJnj3864WH6iXoZogzA8yamktgGhjFDcxugCCLJCa8viaZpJjG4ApNpl/',
+    name: 'Md Forhad M S',
+    avatar: '/fb_profiles/Md Forhad M S.jpg',
+    fbLink: 'https://www.facebook.com/mdforhad.ms?mibextid=wwXIfr&mibextid=wwXIfr',
     addedAt: 4,
-    prediction: 'ARG 2 - 0 ALG'
+    prediction: 'BRA 2 - 2 NOR'
   },
   {
     id: 'p5',
-    name: 'RA YH AN',
-    avatar: '/fb_profiles/RA YH AN.jpg',
-    fbLink: 'https://www.facebook.com/ra.yh.an.764309',
+    name: 'MH Raju',
+    avatar: '/fb_profiles/MH Raju.jpg',
+    fbLink: 'https://www.facebook.com/share/14mbxyTVjcZ/?mibextid=wwXIfr',
     addedAt: 5,
-    prediction: 'ARG 3 - 1 ALG'
+    prediction: 'BRA 0 - 1 NOR'
   },
   {
     id: 'p6',
-    name: 'MD Robin Hasan',
-    avatar: '/fb_profiles/MD Robin Hasan.jpg',
-    fbLink: 'https://www.facebook.com/md.robin.hasan.59901',
+    name: 'Ala Uddin AL Noman',
+    avatar: '/fb_profiles/Ala Uddin AL Noman.jpg',
+    fbLink: 'https://www.facebook.com/share/1CjfJpuRNk/?mibextid=wwXIfr',
     addedAt: 6,
-    prediction: 'ARG 2 - 2 ALG'
+    prediction: 'BRA 2 - 0 NOR'
   },
   {
     id: 'p7',
-    name: 'Robiul Islam Emon',
-    avatar: '/fb_profiles/Robiul Islam Emon.jpg',
-    fbLink: 'https://www.facebook.com/robiul.islam.emon.579639',
+    name: 'Meheraj Uddin Fahim',
+    avatar: '/fb_profiles/Meheraj Uddin Fahim.png',
+    fbLink: 'https://www.facebook.com/share/1Cwkmi6itP/?mibextid=wwXIfr',
     addedAt: 7,
-    prediction: 'ARG 0 - 0 ALG'
+    prediction: 'BRA 1 - 2 NOR'
   },
   {
     id: 'p8',
-    name: 'Nazmul IsLam Saikat',
-    avatar: '/fb_profiles/Nazmul IsLam Saikat.jpg',
-    fbLink: 'https://www.facebook.com/nazmul.islam.saikat.2024',
+    name: 'Mh Rocky',
+    avatar: '/fb_profiles/Mh Rocky.jpg',
+    fbLink: 'https://www.facebook.com/share/1VPm166LDq/?mibextid=wwXIfr',
     addedAt: 8,
-    prediction: 'ARG 1 - 2 ALG'
+    prediction: 'BRA 3 - 1 NOR'
+  },
+  {
+    id: 'p9',
+    name: 'Jahidul Islam',
+    avatar: '/fb_profiles/Jahidul Islam.jpg',
+    fbLink: 'https://www.facebook.com/share/1FS3TzuNbV/?mibextid=wwXIfr',
+    addedAt: 9,
+    prediction: 'BRA 0 - 0 NOR'
+  },
+  {
+    id: 'p10',
+    name: 'BiJoy RaHman',
+    avatar: '/fb_profiles/BiJoy RaHman.jpg',
+    fbLink: 'https://www.facebook.com/share/1EnbNompJq/?mibextid=wwXIfr',
+    addedAt: 10,
+    prediction: 'BRA 2 - 3 NOR'
   }
 ];
 
 export const AVATAR_POOL = [
-  '/fb_profiles/ওয়ালিদ বিন জাহিদ.jpg',
-  '/fb_profiles/Saeed Imran Sakib.jpg',
-  '/fb_profiles/Niloy Chowdhury.jpg',
-  '/fb_profiles/অমিত হাসান.jpg',
-  '/fb_profiles/RA YH AN.jpg',
-  '/fb_profiles/MD Robin Hasan.jpg',
-  '/fb_profiles/Robiul Islam Emon.jpg',
-  '/fb_profiles/Nazmul IsLam Saikat.jpg'
+  '/fb_profiles/Riyad Ali.jpg',
+  '/fb_profiles/Mosharof Hossain.jpg',
+  '/fb_profiles/Sayef Ul Islam Sojib.jpg',
+  '/fb_profiles/Md Forhad M S.jpg',
+  '/fb_profiles/MH Raju.jpg',
+  '/fb_profiles/Ala Uddin AL Noman.jpg',
+  '/fb_profiles/Meheraj Uddin Fahim.png',
+  '/fb_profiles/Mh Rocky.jpg',
+  '/fb_profiles/Jahidul Islam.jpg',
+  '/fb_profiles/BiJoy RaHman.jpg'
 ];

@@ -293,9 +293,6 @@ export default function SpotlightGridEngine({
                             <h4 className="text-sm font-bold tracking-wide truncate text-slate-350">
                               {person.name}
                             </h4>
-                            <span className="text-[10px] text-slate-500 font-medium tracking-wider mt-1 block">
-                              Entrant
-                            </span>
                           </div>
                         </div>
                       </div>
